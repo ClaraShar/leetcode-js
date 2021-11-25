@@ -32,6 +32,7 @@ function sum(arr) {
 
 ### 代码
 ```
+// total:初始值,或者计算结束后的返回值;currentValue:当前元素;currentIndex:当前元素的索引
 function findAllOccurrences(arr, target) {
     return arr.reduce((res,curr,currIndex) => {
         if(curr == target){
